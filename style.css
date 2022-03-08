@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+.main-content {
+  display: flex;
+  margin: 50px auto;
+  width: 960px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.main-content-item {
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content-item {
+    width: 90%;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: white;
+}
+
+.main-content-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-content-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-content-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h3 {
+  margin: 15px 0 5px;
+}
+
+.main-content-text {
+  padding-top: 5px;
+}
+
+
+footer {
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+/* chapter9_exercise */
